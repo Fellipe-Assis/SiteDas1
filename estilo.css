@@ -1,0 +1,206 @@
+/*limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  
+}
+
+/*Formatação de links*/
+a{
+  text-decoration:none;
+}
+a:link, a:visited {
+  color: #f7b600;
+  
+ 
+} 
+a:hover{
+  text-decoration: underline;
+}
+
+#Foto{
+  width: 100px;
+  padding: 5px;
+}
+
+
+    /*---------layout------------*/
+
+.formulario{
+  border: 5px solid rgb(156, 154, 154);
+  background: #f7b5002c;
+  width: auto;
+  height: auto;
+ 
+  text-align: center justify;
+}
+#area-principal{
+  background: whitesmoke;
+  float: center;
+  padding: 15px;
+}
+
+
+.quadra{
+  font-size: 1em;
+  padding: 5px;
+  border-bottom: 1px dotted #ccc;
+
+}
+
+
+#area-lateral{
+  width: auto;
+  float: left;
+
+}
+
+
+.area-quadras{
+  background: white;
+  padding: 10px;
+
+
+}
+
+#maps{
+  float: right;
+}
+
+
+#rodape{
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+ 
+}
+
+#area-cabecalho {
+  background-color: #025e73;
+  padding: 15px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  
+}
+
+.area-logo{
+  float: left;
+
+}
+
+.cabecalho-usuario{
+  border: 5px solid rgb(115, 113, 113);
+  background: #ffbb0033;
+  width: auto;
+  height: auto;
+  text-align: center justify;
+  
+}
+
+.informacoes{
+  border: 1px solid rgb(163, 149, 149);
+  background: #ffbb0033;
+  width: auto;
+  height: auto;
+  text-align: center justify;
+
+}
+/*------------Formatação do menu de login----------------*/
+#area-menu{
+
+  width: auto;
+  float: right;
+  text-align: right;
+  margin: 10px solid black;
+
+}
+
+a{
+ 
+  text-decoration:none;
+}
+#area-menu a:link, #area-menu a:visited {
+  
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 4px;
+  word-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #f2a71b;
+  transition: .3s;
+  cursor: pointer;
+  
+} 
+#area-menu a:hover{
+  text-decoration: none;
+  color:#025e73;
+  background: #ffffff;
+  transition: .3s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/*------------Formatação geral--------------------*/
+
+.topo{
+  font-size: 2em;
+  color: #011f26;
+  text-align: center;
+}
+h1 {
+  color: #f2a71b;
+  font-size: 2.5em;
+
+}
+ h2 {
+   color: #4f5048;
+   
+}
+
+h3{
+  color: #565656;
+  background: #ccc;
+  padding: 2px;
+
+}
+
+.branco {
+color: white;
+}
+
+
+
+.button {
+  display: inline-block;
+  
+  padding: 1rem;
+  border-radius: 4px;
+  word-spacing: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  background-color:#f2a71b ;
+  transition: .3s;
+  cursor: pointer;
+  margin: 5px ;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px 0px #025e73;
+}
