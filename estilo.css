@@ -204,3 +204,15 @@ color: white;
 .button:hover {
   box-shadow: 0 0 10px 0px #025e73;
 }
+
+/*------------Formatação Area usuario--------------------*/
+
+#Separação{
+  height: 10px;
+  background-color: rgb(115, 113, 113);
+  border: rgb(115, 113, 113);
+}
+
+.espaçamento{
+  padding: 5px;
+}
